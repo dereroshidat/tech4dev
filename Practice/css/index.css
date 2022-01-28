@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#comp-name{
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+    .align-item-center{
+        align-items: center;
+    }
+
+    nav{
+        padding: 20px 15px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .gap-20{
+        gap: 20px;
+    }
+    .font-20{
+       font: 20px;
+    }
+    #go-pro {
+        background-color: #f0bb62;
+        border-width: 0px;
+        padding: 15px 60px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #avatar{
+        border-width: 0px;
+        border-radius: 50px;
+        padding: 10px;
+        border: 2px dashed blue;
+    }
+    .justify-content-between{
+        justify-content: space-between;
+    }
+    .semi {
+        height: 50vh;
+        background-color: #333366;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+       /*postion:relative and  absolute*/
+        position:absolute;
+        width: 110%;
+        height: 100%;
+        left: -5;
+        font-size: 15px;
+        color: white;
+    
+    }
+    #content {
+        width: 110vw;
+        position: relative;
+    }
+    #semi-convas{
+        width: 100%;
+        position:relative;
+        overflow-x: hidden;
+        height: 50vh;
+    }
+    #curi{
+        padding: 15px 40px;
+        position: absolute;
+        top: 0px;
+    }
+    .avatar-courses{
+        padding: 30px 10px;
+        background-color:tomato;
+        border-radius: 200px;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+        align-items: center;
+    }
+    #course-card{
+        background-color: white;
+        box-shadow: 0px 5px 10px;
+    }
+   .justify-content-between{
+       justify-content: space-between;
+   }
+back to course{flex

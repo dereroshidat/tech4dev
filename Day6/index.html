@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript/Day6</title>
+    <style>
+        #dom {
+            background-color: blanchedalmond;
+            box-shadow: 0px 0px 10px black;
+            margin-left: 40px;
+            margin-right: 40px;
+            padding: 40px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="dom">
+    <span>DOM</span>
+    <p id= "para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste nostrum, animi consequatur ea, eum voluptate adipisci eos nam, ut vero provident nemo sint voluptatibus? Asperiores recusandae iure repellat vitae.</p>
+</h1>
+    <p class="p">This demostrate Document object model manipulation</p>
+    <p class="p">This demostrate Document object model manipulation2</p>
+    <p class="p">This demostrate Document object model manipulation3</p>
+
+     <!--1. strings(anything between quotation marks '' "") 2. Number(no need for qoutation marks) 3. boolean(true or false) 4. Array(list[]) 5.objects(Maps{}) always come at the bottom of the body before the closing tag of the body -->
+     <script>
+         //VARIABLES
+         //1. var 2. let 3. const
+        //  
+        
+         const f = true //boolean//
+         let fruits = ['orange', 23, 'apple', true, [45, false, Monk], true];
+         let firstItem = fruits[fruits.length];
+         let firstItem = fruits[4][1];
+         var person = {
+             name:"Roshidat",
+             age:28,
+             likes: [Cooking, Coding, Reading],
+             student: false,
+         };
+         alert(person.name);
+        // alert(firstitem);
+        //DOM means document object model
+
+
+     </script>
+     <script src="./js/index.js"></script>
+     </body>
+</html>
